@@ -8,7 +8,7 @@ An interactive image gallery built as part of my Frontend Development Internship
 This project showcases a category-based photo gallery where users can filter images by theme, view them in a fullscreen lightbox, and navigate smoothly between photos.
 
 ## Screenshot
-![My Creative Lens Screenshot](screenshot.png)
+![My Creative Lens Screenshot](img_gallery.png)
 
 ## Features
 - Category filters (Food, Nature, Travel, Furniture, Birds, Animals)
