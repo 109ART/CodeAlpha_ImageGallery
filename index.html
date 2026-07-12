@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Creative Lens - Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <h1>My Creative Lens</h1>
+            <p>An interactive portfolio gallery displaying captured moments, categorized by design themes.</p>
+        </header>
+
+        <!-- Categories Filter Menu -->
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">All Photos</button>
+            <button class="filter-btn" data-filter="food">Food</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="furniture">Furniture</button>
+            <button class="filter-btn" data-filter="travel">Travel</button>
+            <button class="filter-btn" data-filter="birds">Birds</button>
+            <button class="filter-btn" data-filter="animals">Animals</button>
+        </div>
+
+        <!-- Gallery Grid of Items -->
+        <main class="gallery-grid" id="main-grid">
+
+            <!-- Food Section -->
+            <div class="gallery-card" data-category="food">
+                <div class="img-container">
+                    <img src="images/Fresh Garden Salad.png" alt="Fresh Garden Salad">
+                </div>
+                <div class="card-details">
+                    <div class="card-category">Food</div>
+                    <div class="card-title">Fresh Garden Salad</div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-category="food">
+                <div class="img-container">
+                    <img src="images/Warm Baked Waffles.png" alt="Warm Baked Waffles">
+                </div>
+                <div class="card-details">
+                    <div class="card-category">Food</div>
+                    <div class="card-title">Warm Baked Waffles</div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-category="food">
+                <div class="img-container">
+                    <img src="images/baryani.png" alt="Biryani">
+                </div>
+                <div class="card-details">
+                    <div class="card-category">Food</div>
+                    <div class="card-title">Biryani</div>
+                </div>
+            </div>
+
+            <!-- Nature Section -->
+            <div class="gallery-card" data-category="nature">
+                <div class="img-container">
+                    <img src="images/Verdant Valleys.png" alt="Verdant Valleys">
+                </div>
+                <div class="card-details">
+                    <div class="card-category">Nature</div>
+                    <div class="card-title">Verdant Valleys</div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-category="nature">
+                <div class="img-container">
+                    <img src="images/Forest Whisper.png" alt="Forest Whisper">
+                </div>
+                <div class="card-details">
+                    <div class="card-category">Nature</div>
+                    <div class="card-title">Forest Whisper</div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-category="nature">
+                <div class="img-container">
+                    <img src="images/Hunza Valley.png" alt="Hunza Valley">
+                </div>
+                <div class="card-details">
+                    <div class="card-category">Nature</div>
+                    <div class="card-title">Hunza Valley</div>
+                </div>
+            </div>
+
+            <!-- Furniture Section -->
+            <div class="gallery-card" data-category="furniture">
+                <div class="img-container">
+                    <img src="images/Nordic Oak Stool.png" alt="Nordic Oak Stool">
+                </div>
+                <div class="card-details">
+                    <div class="card-category">Furniture</div>
+                    <div class="card-title">Nordic Oak Stool</div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-category="furniture">
+                <div class="img-container">
+                    <img src="images/Velvet Lounge Chair.png" alt="Velvet Lounge Chair">
+                </div>
+                <div class="card-details">
+                    <div class="card-category">Furniture</div>
+                    <div class="card-title">Velvet Lounge Chair</div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-category="furniture">
+                <div class="img-container">
+                    <img src="images/Bed.png" alt="Bed">
+                </div>
+                <div class="card-details">
+                    <div class="card-category">Furniture</div>
+                    <div class="card-title">Bed</div>
+                </div>
+            </div>
+
+            <!-- Travel Section -->
+            <div class="gallery-card" data-category="travel">
+                <div class="img-container">
+                    <img src="images/Golden Horizon.png" alt="Golden Horizon">
+                </div>
+                <div class="card-details">
+                    <div class="card-category">Travel</div>
+                    <div class="card-title">Golden Horizon</div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-category="travel">
+                <div class="img-container">
+                    <img src="images/Alpine Drifting.png" alt="Alpine Drifting">
+                </div>
+                <div class="card-details">
+                    <div class="card-category">Travel</div>
+                    <div class="card-title">Alpine Drifting</div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-category="travel">
+                <div class="img-container">
+                    <img src="images/Northern Areas Pakistan .png" alt="Northern Areas Pakistan">
+                </div>
+                <div class="card-details">
+                    <div class="card-category">Travel</div>
+                    <div class="card-title">Northern Areas Pakistan</div>
+                </div>
+            </div>
+
+            <!-- Birds Section -->
+            <div class="gallery-card" data-category="birds">
+                <div class="img-container">
+                    <img src="images/Tropical Macaw.png" alt="Tropical Macaw">
+                </div>
+                <div class="card-details">
+                    <div class="card-category">Birds</div>
+                    <div class="card-title">Tropical Macaw</div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-category="birds">
+                <div class="img-container">
+                    <img src="images/Swan.png" alt="Freedom Flight">
+                </div>
+                <div class="card-details">
+                    <div class="card-category">Birds</div>
+                    <div class="card-title">Swan</div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-category="birds">
+                <div class="img-container">
+                    <img src="images/Chukar Partridge.png" alt="Chukar Partridge">
+                </div>
+                <div class="card-details">
+                    <div class="card-category">Birds</div>
+                    <div class="card-title">Chukar Partridge</div>
+                </div>
+            </div>
+
+            <!-- Animals Section -->
+            <div class="gallery-card" data-category="animals">
+                <div class="img-container">
+                    <img src="images/Lion.png" alt="Savannah Monarch">
+                </div>
+                <div class="card-details">
+                    <div class="card-category">Animals</div>
+                    <div class="card-title">Lion</div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-category="animals">
+                <div class="img-container">
+                    <img src="images/Leopard.png" alt="Faithful Friend">
+                </div>
+                <div class="card-details">
+                    <div class="card-category">Animals</div>
+                    <div class="card-title">Leopard</div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-category="animals">
+                <div class="img-container">
+                    <img src="images/markhor.png" alt="Markhor">
+                </div>
+                <div class="card-details">
+                    <div class="card-category">Animals</div>
+                    <div class="card-title">Markhor</div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Lightbox Modal (For fullscreen viewing and dynamic slider navigation) -->
+    <div class="lightbox-modal" id="viewer-modal">
+        <div class="lightbox-content">
+            <button class="control-btn close-btn" id="close-modal">&times;</button>
+            <button class="control-btn download-btn" id="download-img" title="Download Image">&#8681;</button>
+
+            <div class="slider-wrapper">
+                <button class="control-btn prev-btn" id="slide-prev">&#10094;</button>
+                <img src="" id="viewer-img" alt="">
+                <button class="control-btn next-btn" id="slide-next">&#10095;</button>
+            </div>
+
+            <div class="lightbox-info">
+                <h3 id="viewer-title">Placeholder Title</h3>
+                <p id="viewer-cat">Category</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Simple Student Footer -->
+    <footer>
+        <p>My Creative Portfolio Gallery</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
